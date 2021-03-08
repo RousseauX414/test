@@ -33,13 +33,12 @@ public class GuteFee {
 			System.out.println(wishCount == 1 ? "Ihr Wunsch lautet also "  :
 					"Ihre Wünsche lauten ");
 			for (String wish1 : wishList)
-				System.out.println(wish1);//ohne diese for Schleife alles reibungslos...
+				System.out.println(wish1);
 			
-			 //Problem !!!besser mit if
 			
 				
 			
-		} while (wishCount < MAX_WISHES); // muss kleiner sein, da es oben nochmal 3tes Mal l�uft
+		} while (wishCount < MAX_WISHES); // muss kleiner sein, da es oben nochmal 3tes Mal läuft
 		
 		System.out.println("Die gute Fee muss los, kommt aber bald wieder mal vorbei ;)");
 	}
